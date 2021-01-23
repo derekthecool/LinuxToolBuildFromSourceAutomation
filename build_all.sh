@@ -6,9 +6,12 @@
 buildCount=0
 
 # Build all submodule repositories in this project
-for build in */; do
+for repo in */; do
+  # Print that we are starting with this build
+  echo "----------------${repo} build starting----------------"
+
   # Enter build directory
-  cd "$build"
+  cd "$repo"
 
   # Run the build script for that submodule
   ./build.sh
@@ -16,8 +19,11 @@ for build in */; do
   # Increment the build count
   let buildCount++
 
-  # Return to root of the repository where this script (build_all.sh) is at
-  cd "$(dirname "$0")"
+  # Return to starting point
+  cd ..
+
+  # Print that we are finished with this build
+  echo -e "----------------${repo} build complete----------------\n"
 done
 
 # Specify how many builds were completed successfully

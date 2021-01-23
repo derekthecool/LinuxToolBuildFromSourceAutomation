@@ -1,3 +1,6 @@
 [submodule "mwh_dragon/dragon"]
 	path = mwh_dragon/dragon
 	url = https://github.com/mwh/dragon.git
+[submodule "sharkdp_bat/bat"]
+	path = sharkdp_bat/bat
+	url = https://github.com/sharkdp/bat.git
