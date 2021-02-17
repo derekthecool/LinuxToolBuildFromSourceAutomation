@@ -8,5 +8,5 @@ cd "$(dirname "$0")"
 # Change directory to the name of the submodule
 cd ./dragon
 
-# Run make install
+# Run build commands
 make install

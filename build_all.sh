@@ -2,6 +2,9 @@
 
 # TODO: check for required system dependencies
 
+# Update all git submodules
+git pull --recurse-submodules
+
 # Variable to keep track of how many builds we have done
 buildCount=0
 

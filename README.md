@@ -12,7 +12,7 @@ repository.
 
 ```sh
 # Clone the repository and initialize the submodules
-git clone https://github.com/derekthecool/LinuxBuildFromSourceAutomation.git
+git clone --recurse-submodules https://github.com/derekthecool/LinuxBuildFromSourceAutomation.git
 
 # Enter repository and run build_all.sh
 cd LinuxBuildFromSourceAutomation
