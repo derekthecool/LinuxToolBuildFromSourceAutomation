@@ -1,12 +1,3 @@
-[submodule "mwh_dragon/dragon"]
-	path = mwh_dragon/dragon
-	url = https://github.com/mwh/dragon.git
-[submodule "sharkdp_bat/bat"]
-	path = sharkdp_bat/bat
-	url = https://github.com/sharkdp/bat.git
-[submodule "ogham_exa/exa"]
-	path = ogham_exa/exa
-	url = https://github.com/ogham/exa.git
 [submodule "neovim_neovim/neovim"]
 	path = neovim_neovim/neovim
 	url = https://github.com/neovim/neovim.git

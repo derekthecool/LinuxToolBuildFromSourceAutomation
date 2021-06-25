@@ -14,7 +14,7 @@ for repo in */; do
   echo "----------------${repo} build starting----------------"
 
   # Enter build directory
-  cd "$repo"
+  cd "$repo" || exit
 
   # Run the build script for that submodule
   ./build.sh
