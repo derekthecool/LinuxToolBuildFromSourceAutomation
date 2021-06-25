@@ -1,3 +1,9 @@
 [submodule "neovim_neovim/neovim"]
 	path = neovim_neovim/neovim
 	url = https://github.com/neovim/neovim.git
+[submodule "junegunn_fzf/fzf"]
+	path = junegunn_fzf/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "tmux_tmux/tmux"]
+	path = tmux_tmux/tmux
+	url = https://github.com/tmux/tmux.git
